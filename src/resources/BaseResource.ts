@@ -10,7 +10,7 @@ class BaseResource {
   // Todo:一旦仮置き
   baseUrl: string
   constructor() {
-    this.baseUrl = "https://zuic3gnjvq.ap-northeast-1.awsapprunner.com"
+    this.baseUrl = import.meta.env.VITE_API_URL
   }
 
   async get<T>(endPoint: string) {
