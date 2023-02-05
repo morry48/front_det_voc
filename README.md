@@ -24,6 +24,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
+cp .env.example .env
 npm install
 ```
 
