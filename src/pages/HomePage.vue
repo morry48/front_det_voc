@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import DuHeader from '@components/DuHeader/DuHeader.vue';
 import DuButton from '@components/DuButton/DuButton.vue'
 import DuDialog from '@components/DuDialog/DuDialog.vue';
 import DuTitle from '@components/DuTitle/DuTitle.vue';
 import { useVocabularyStore } from '@stores/vocabulary/index'
 import DuMain from '@components/DuMain/DuMain.vue';
-import { useRouter } from 'vue-router';
+
+const { reloadVocabularyList } = useVocabularyStore()
 
 const onClickButton = () => console.log('click')
 const onClickCancel = () => console.log('cancel')
 
+reloadVocabularyList()
 </script>
 
 <template>

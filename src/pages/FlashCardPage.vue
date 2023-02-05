@@ -6,8 +6,11 @@ import DuCollapse from '@components/DuCollapse/DuCollapse.vue';
 import { useVocabularyStore } from '@stores/vocabulary/index'
 import { reactive, computed } from 'vue';
 import DuDivider from '@components/DuDivider/DuDivider.vue';
-
+import { useRouter } from 'vue-router';
+const router = useRouter()
 const { vocabularyState, addUnansweredVocabulary, initializeUnansweredList } = useVocabularyStore()
+if (!vocabularyState.list.length) router.push('/')
+
 const state = reactive({
   isShowAnswer: false,
   counter: 0,
