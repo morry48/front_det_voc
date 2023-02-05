@@ -1,0 +1,39 @@
+name: Deploy main branch
+on:
+  push:
+    branches: [ "main" ]
+
+
+jobs:
+  build:
+    env:
+      SOURCE_DIR: frontend
+      BUILD_PATH: dist
+      STORY_S3_PATH: 's3://front-det-voc'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    strategy:
+      matrix:
+        node-version: [16.18.0]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm run build
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ap-northeast-1
+        
+  
+    - name: Publish to development AWS S3
+      run: |
+        aws s3 sync --exact-timestamps ${{ env.BUILD_PATH }} ${{ env.STORY_S3_PATH }}/
