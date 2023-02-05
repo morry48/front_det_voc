@@ -1,0 +1,50 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.json",
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "ES2019",
+      "dom"
+    ],
+    "resolveJsonModule": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@resource/*": [
+        "./src/resources/*"
+      ],
+      "@mocks/*": [
+        "./src/mocks/*"
+      ],
+      "@functions/*": [
+        "./src/functions/*"
+      ],
+      "@stores/*": [
+        "./src/stores/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@const/*": [
+        "./src/const/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@@types/*": [
+        "./src/types/*"
+      ]
+    }
+  }
+}

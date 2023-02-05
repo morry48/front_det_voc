@@ -1,0 +1,1934 @@
+[
+  {
+    "en_word": "Monday",
+    "jp_word": "月曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Tuesday",
+    "jp_word": "火曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Wednesday",
+    "jp_word": "水曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Thursday",
+    "jp_word": "木曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Friday",
+    "jp_word": "金曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Saturday",
+    "jp_word": "土曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "Sunday",
+    "jp_word": "日曜日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "weekdays",
+    "jp_word": "平日",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "weekend",
+    "jp_word": "週末",
+    "cartegory": "曜日",
+    "level": "1"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "January",
+    "jp_word": "1 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "February",
+    "jp_word": "2 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "March",
+    "jp_word": "3 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "April",
+    "jp_word": "4 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "May",
+    "jp_word": "5 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "June",
+    "jp_word": "6 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "July",
+    "jp_word": "7 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "August",
+    "jp_word": "8 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "September",
+    "jp_word": "9 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "October",
+    "jp_word": "10 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "November",
+    "jp_word": "11 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "December",
+    "jp_word": "12 月",
+    "cartegory": "月",
+    "level": "1"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "gardening",
+    "jp_word": "ガーデニング",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "stamp collection",
+    "jp_word": "切手収集",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "orienteering",
+    "jp_word": "オリエンテーリング",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "caving",
+    "jp_word": "洞窟探検",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "spelunking",
+    "jp_word": "洞窟探検",
+    "cartegory": "趣味",
+    "level": "10"
+  },
+  {
+    "en_word": "scuba diving",
+    "jp_word": "スキューバ ダイビング",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "snorkeling",
+    "jp_word": "​​シュノーケリング",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "skateboarding",
+    "jp_word": "スケートボード",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "bowling",
+    "jp_word": "ボウル",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "archery",
+    "jp_word": "アーチェリー",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "ice skating",
+    "jp_word": "アイススケート",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "darts",
+    "jp_word": "ダーツ",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "golf",
+    "jp_word": "ゴルフ",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "billiards",
+    "jp_word": "ビリヤード",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "photography",
+    "jp_word": "写真",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "painting",
+    "jp_word": "絵画",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "embroidery",
+    "jp_word": "刺繍",
+    "cartegory": "趣味",
+    "level": "10"
+  },
+  {
+    "en_word": "climbing",
+    "jp_word": "登山",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "chess",
+    "jp_word": "チェス",
+    "cartegory": "趣味",
+    "level": "1"
+  },
+  {
+    "en_word": "parachute",
+    "jp_word": "パラシュート",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "pottery",
+    "jp_word": "陶芸",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "woodcarving",
+    "jp_word": "木彫り",
+    "cartegory": "趣味",
+    "level": "5"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "science",
+    "jp_word": "科学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "politics",
+    "jp_word": "政治",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "architecture",
+    "jp_word": "建築",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "law",
+    "jp_word": "法律",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "geography",
+    "jp_word": "地理",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "history",
+    "jp_word": "歴史",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "biology",
+    "jp_word": "生物学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "archaeology",
+    "jp_word": "考古学",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "literature",
+    "jp_word": "文学",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "statistics",
+    "jp_word": "統計",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "mathematics",
+    "jp_word": "数学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "performing arts",
+    "jp_word": "舞台芸術",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "visual arts",
+    "jp_word": "視覚芸術",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "logic",
+    "jp_word": "論理",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "physics",
+    "jp_word": "物理学",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "psychology",
+    "jp_word": "心理学",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "anthropology",
+    "jp_word": "人類学",
+    "cartegory": "科目",
+    "level": "5"
+  },
+  {
+    "en_word": "economics",
+    "jp_word": "経済学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "philosophy",
+    "jp_word": "哲学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "chemistry",
+    "jp_word": "化学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "humanities",
+    "jp_word": "人文科学",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "business management",
+    "jp_word": "経営管理",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "agriculture",
+    "jp_word": "農業",
+    "cartegory": "科目",
+    "level": "1"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "catalogue",
+    "jp_word": "カタログ",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "interview",
+    "jp_word": "インタビュー",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "research method",
+    "jp_word": "調査方法",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "entertainment industry",
+    "jp_word": "芸能界",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "TV program",
+    "jp_word": "テレビ番組",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "strategies",
+    "jp_word": "戦略",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "leadership",
+    "jp_word": "リーダーシップ",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "management",
+    "jp_word": "経営",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "customer",
+    "jp_word": "顧客",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "special offer",
+    "jp_word": "特典",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "collecting data",
+    "jp_word": "情報収集",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "display",
+    "jp_word": "展示",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "products",
+    "jp_word": "商品",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "questionnaire",
+    "jp_word": "アンケート",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "survey",
+    "jp_word": "調査",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "mass media",
+    "jp_word": "マスメディア",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "poll",
+    "jp_word": "世論調査",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "business card",
+    "jp_word": "名刺",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "training",
+    "jp_word": "研修",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "trainee",
+    "jp_word": "研修生",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "statistic",
+    "jp_word": "統計",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "profit margin",
+    "jp_word": "利益率",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "newsletter",
+    "jp_word": "ニュースレター",
+    "cartegory": "マーケティング",
+    "level": "1"
+  },
+  {
+    "en_word": "competition",
+    "jp_word": "競争",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "merchandise",
+    "jp_word": "商品",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "manufacture",
+    "jp_word": "製造",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "recruitment",
+    "jp_word": "採用",
+    "cartegory": "マーケティング",
+    "level": "5"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "course outline",
+    "jp_word": "コースの概要",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "group discussion",
+    "jp_word": "グループディスカッション",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "handout",
+    "jp_word": "配布資料",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "research",
+    "jp_word": "研究",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "Proofreading",
+    "jp_word": "校正",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "experiment",
+    "jp_word": "実験",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "written work",
+    "jp_word": "作文",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "report writing",
+    "jp_word": "レポート作成",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "experience",
+    "jp_word": "体験",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "reference",
+    "jp_word": "参照",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "textbook",
+    "jp_word": "教科書",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "student advisor",
+    "jp_word": "学生アドバイザー",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "teamwork",
+    "jp_word": "チームワーク",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "module",
+    "jp_word": "モジュール",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "topic",
+    "jp_word": "トピック",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "dictionary",
+    "jp_word": "辞書",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "laptop",
+    "jp_word": "ラップトップ",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "printer",
+    "jp_word": "プリンター",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "assessment",
+    "jp_word": "評価",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "library",
+    "jp_word": "図書館",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "department",
+    "jp_word": "学部",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "computer center",
+    "jp_word": "コンピューターセンター",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "classroom",
+    "jp_word": "教室",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "attendance",
+    "jp_word": "出席",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "deadline",
+    "jp_word": "締め切り",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "give a talk",
+    "jp_word": "講演",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "speech",
+    "jp_word": "スピーチ",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "lecture",
+    "jp_word": "講義",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "tutor",
+    "jp_word": "チューター",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "main hall",
+    "jp_word": "メインホール",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "computer laboratory",
+    "jp_word": "コンピュータラボ",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "certificate",
+    "jp_word": "証明書",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "diploma",
+    "jp_word": "卒業証書",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "placement test",
+    "jp_word": "プレイスメントテスト",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "facilities",
+    "jp_word": "施設",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "college",
+    "jp_word": "カレッジ",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "dining room",
+    "jp_word": "ダイニングルーム",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "specialist",
+    "jp_word": "スペシャリスト",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "knowledge",
+    "jp_word": "知識",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "international",
+    "jp_word": "国際",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "accommodation",
+    "jp_word": "宿泊施設",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "overseas students",
+    "jp_word": "留学生",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "full-time",
+    "jp_word": "フルタイム",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "homestay",
+    "jp_word": "ホームステイ",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "primary",
+    "jp_word": "プライマリー",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "secondary",
+    "jp_word": "セカンダリー",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "intermediate",
+    "jp_word": "中級",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "media room",
+    "jp_word": "メディアルーム",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "commencement",
+    "jp_word": "開始",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "dissertation",
+    "jp_word": "論文",
+    "cartegory": "大学での勉強",
+    "level": "10"
+  },
+  {
+    "en_word": "leaflet",
+    "jp_word": "リーフレット",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "school reunion",
+    "jp_word": "同窓会",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "feedback",
+    "jp_word": "フィードバック",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "tasks",
+    "jp_word": "タスク",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "outcomes",
+    "jp_word": "成果",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "advanced",
+    "jp_word": "上級",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "introductory",
+    "jp_word": "入門",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "extra background",
+    "jp_word": "追加の背景",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "resources room",
+    "jp_word": "リソースルーム",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "staff",
+    "jp_word": "スタッフ",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "higher education",
+    "jp_word": "高等教育",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "guidelines",
+    "jp_word": "ガイドライン",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "post-secondary",
+    "jp_word": "中等後",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "faculty",
+    "jp_word": "教員",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "pupils",
+    "jp_word": "生徒",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "pencil",
+    "jp_word": "鉛筆",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "supervisor",
+    "jp_word": "スーパーバイザー",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "bachelor’s degree",
+    "jp_word": "学士号",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "compound",
+    "jp_word": "コンパウンド",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "foreign students",
+    "jp_word": "留学生",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "schedule",
+    "jp_word": "スケジュール",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "vocabulary",
+    "jp_word": "語彙",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "student support services",
+    "jp_word": "学生支援サービス",
+    "cartegory": "大学での勉強",
+    "level": "1"
+  },
+  {
+    "en_word": "student retention",
+    "jp_word": "学生の保持",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "publication",
+    "jp_word": "出版物",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "registrar’s office",
+    "jp_word": "登録事務所",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "stationery",
+    "jp_word": "文房具",
+    "cartegory": "大学での勉強",
+    "level": "5"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "designer",
+    "jp_word": "デザイナー",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "occupation",
+    "jp_word": "職業",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "profession",
+    "jp_word": "職業",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "decorator",
+    "jp_word": "装飾家",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "architect",
+    "jp_word": "建築家",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "engineer",
+    "jp_word": "エンジニア",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "waiter",
+    "jp_word": "ウェイター",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "teacher",
+    "jp_word": "教師",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "vacancy",
+    "jp_word": "欠員",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "professor",
+    "jp_word": "教授",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "manager",
+    "jp_word": "マネージャー",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "waitress",
+    "jp_word": "ウェイトレス",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "psychologist",
+    "jp_word": "心理学者",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "volunteer",
+    "jp_word": "ボランティア",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "craftsman",
+    "jp_word": "職人",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "work experience",
+    "jp_word": "実務経験",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "curriculum vitae",
+    "jp_word": "履歴書",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "freelance",
+    "jp_word": "フリーランス",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "secretary",
+    "jp_word": "秘書",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "mail address",
+    "jp_word": "メールアドレス",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "receptionist",
+    "jp_word": "受付係",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "pilot",
+    "jp_word": "パイロット",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "lecturer",
+    "jp_word": "講師",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "office assistant",
+    "jp_word": "オフィスアシスタント",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "clerk",
+    "jp_word": "事務員",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "accountant",
+    "jp_word": "会計士",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "guard",
+    "jp_word": "ガードマン",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "flight attendant",
+    "jp_word": "客室乗務員",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "cashier",
+    "jp_word": "キャッシャー",
+    "cartegory": "仕事/職業",
+    "level": "5"
+  },
+  {
+    "en_word": "captain",
+    "jp_word": "キャプテン",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "yoga",
+    "jp_word": "ヨガ",
+    "cartegory": "仕事/職業",
+    "level": "1"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "tai-chi",
+    "jp_word": "太極拳",
+    "cartegory": "健康",
+    "level": "10"
+  },
+  {
+    "en_word": "keep-fit",
+    "jp_word": "健康維持",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "salad bar",
+    "jp_word": "サラダバー",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "vegetarian",
+    "jp_word": "ベジタリアン",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "outdoor activities",
+    "jp_word": "野外活動",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "leisure time",
+    "jp_word": "余暇",
+    "cartegory": "健康",
+    "level": "10"
+  },
+  {
+    "en_word": "disease",
+    "jp_word": "病気",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "meal",
+    "jp_word": "食事",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "protein",
+    "jp_word": "タンパク質",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "balanced diet",
+    "jp_word": "バランスの取れた食事",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "food pyramid",
+    "jp_word": "食品ピラミッド",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "vitamin",
+    "jp_word": "ビタミン",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "carbohydrates",
+    "jp_word": "炭水化物",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "rice",
+    "jp_word": "米",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "pasta",
+    "jp_word": "パスタ",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "potatoes",
+    "jp_word": "ジャガイモ",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "pizza",
+    "jp_word": "ピザ",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "tomatoes",
+    "jp_word": "トマト",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "bread",
+    "jp_word": "パン",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "cereals",
+    "jp_word": "穀物",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "minerals",
+    "jp_word": "ミネラル",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "zinc",
+    "jp_word": "亜鉛",
+    "cartegory": "健康",
+    "level": "10"
+  },
+  {
+    "en_word": "meat",
+    "jp_word": "肉",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "seafood",
+    "jp_word": "魚介類",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "eggs",
+    "jp_word": "卵",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "beans",
+    "jp_word": "豆",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "milk",
+    "jp_word": "牛乳",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "cheese",
+    "jp_word": "チーズ",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "yogurt",
+    "jp_word": "ヨーグルト",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "fruit",
+    "jp_word": "果物",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "vegetables",
+    "jp_word": "野菜",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "citrus fruits",
+    "jp_word": "柑橘類",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "green pepper",
+    "jp_word": "ピーマン",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "blackcurrant",
+    "jp_word": "カシス",
+    "cartegory": "健康",
+    "level": "10"
+  },
+  {
+    "en_word": "nuts",
+    "jp_word": "ナッツ",
+    "cartegory": "健康",
+    "level": "1"
+  },
+  {
+    "en_word": "egg yolk",
+    "jp_word": "卵黄",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "liver",
+    "jp_word": "肝臓",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "medicine، treatment",
+    "jp_word": "薬・治療",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "remedy",
+    "jp_word": "治療",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "nursing care",
+    "jp_word": "介護",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "nursery",
+    "jp_word": "保育園",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "regular exercise",
+    "jp_word": "定期的な運動",
+    "cartegory": "健康",
+    "level": "5"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "field",
+    "jp_word": "フィールド",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "footbridge",
+    "jp_word": "歩道橋",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "river",
+    "jp_word": "川",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "mountain",
+    "jp_word": "山",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "forest",
+    "jp_word": "森",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "village",
+    "jp_word": "村",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "environment",
+    "jp_word": "環境",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "waterfall",
+    "jp_word": "滝",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "coast",
+    "jp_word": "海岸",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "reef",
+    "jp_word": "岩礁",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "lake",
+    "jp_word": "湖",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "valley",
+    "jp_word": "谷",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "peninsula",
+    "jp_word": "半島",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "earthquake",
+    "jp_word": "地震",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "avalanche",
+    "jp_word": "雪崩",
+    "cartegory": "自然",
+    "level": "10"
+  },
+  {
+    "en_word": "tornado",
+    "jp_word": "竜巻",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "typhoon",
+    "jp_word": "台風",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "hill",
+    "jp_word": "丘",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "cliff",
+    "jp_word": "崖",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "island",
+    "jp_word": "島",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "desertification",
+    "jp_word": "砂漠化",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "volcano",
+    "jp_word": "火山",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "disaster",
+    "jp_word": "災害",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "landslides",
+    "jp_word": "地滑り",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "storm",
+    "jp_word": "嵐",
+    "cartegory": "自然",
+    "level": "1"
+  },
+  {
+    "en_word": "flood",
+    "jp_word": "洪水",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "hurricane",
+    "jp_word": "ハリケーン",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "pond",
+    "jp_word": "池",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "catastrophe",
+    "jp_word": "大災害",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "erosion",
+    "jp_word": "侵食",
+    "cartegory": "自然",
+    "level": "10"
+  },
+  {
+    "en_word": "jungle",
+    "jp_word": "ジャングル",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "oasis",
+    "jp_word": "オアシス",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "dam",
+    "jp_word": "ダム",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "canyon",
+    "jp_word": "キャニオン",
+    "cartegory": "自然",
+    "level": "5"
+  },
+  {
+    "en_word": "",
+    "jp_word": "",
+    "cartegory": "",
+    "level": ""
+  },
+  {
+    "en_word": "coal",
+    "jp_word": "石炭",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "fossil fuels",
+    "jp_word": "化石燃料",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "acid rain",
+    "jp_word": "酸性雨",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "global warming",
+    "jp_word": "地球温暖化",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "carbon dioxide",
+    "jp_word": "二酸化炭素",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "greenhouse effect",
+    "jp_word": "温室効果",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "burning fossil",
+    "jp_word": "化石の燃焼",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "exhaust fumes",
+    "jp_word": "排気ガス",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "smog",
+    "jp_word": "スモッグ",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "climate",
+    "jp_word": "気候",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "pollution",
+    "jp_word": "汚染",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "temperature",
+    "jp_word": "温度",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "power plants",
+    "jp_word": "発電所",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "deforestation",
+    "jp_word": "森林伐採",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "nitrogen oxide",
+    "jp_word": "窒素酸化物",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "landfill",
+    "jp_word": "埋立地",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "cattle",
+    "jp_word": "牛",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "wind turbine",
+    "jp_word": "風力タービン",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "renewable",
+    "jp_word": "再生可能エネルギー",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "source of energy",
+    "jp_word": "エネルギー源",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "reliable",
+    "jp_word": "信頼できる",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "solar panels",
+    "jp_word": "ソーラー パネル",
+    "cartegory": "環境",
+    "level": "1"
+  },
+  {
+    "en_word": "solar power",
+    "jp_word": "太陽光発電",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "hydroelectric power",
+    "jp_word": "水力発電",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "environmentally friendly",
+    "jp_word": "環境に優しい",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "oxygen",
+    "jp_word": "酸素",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "chemical-free",
+    "jp_word": "無化学薬品",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "vegetation",
+    "jp_word": "植生",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "sea level",
+    "jp_word": "海面",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "ocean currents",
+    "jp_word": "海流",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "soil conditioner",
+    "jp_word": "土壌改良剤",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "firewood",
+    "jp_word": "薪",
+    "cartegory": "環境",
+    "level": "10"
+  },
+  {
+    "en_word": "desert",
+    "jp_word": "砂漠",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "degradation",
+    "jp_word": "劣化",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "drought",
+    "jp_word": "干ばつ",
+    "cartegory": "環境",
+    "level": "5"
+  },
+  {
+    "en_word": "contaminated",
+    "jp_word": "汚染",
+    "cartegory": "環境",
+    "level": "5"
+  }
+]

@@ -1,0 +1,10 @@
+
+export type ColorThemeType = "primary"
+  | "secondary"
+  | "accent"
+  | "neutral"
+  | "base-100"
+  | "info"
+  | "success"
+  | "warning"
+  | "error" 
