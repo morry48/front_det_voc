@@ -2,6 +2,7 @@ import { reactive, readonly } from 'vue'
 import { defineStore } from 'pinia'
 import { useGetVocabularyList } from '@functions/vocabulary/useGetVocabularyList'
 import type VocabularyModel from 'src/models/vocabulary'
+import type { VocabularyParamsType } from '@resource/VocabularyResource'
 
 type StateType = {
   list: VocabularyModel[]
@@ -22,8 +23,8 @@ export const useVocabularyStore = defineStore('vocabulary', () => {
     state.count = vocabularies.length
   }
 
-  const reloadVocabularyList = async () => {
-    const vocabularyList = await getVocabularies()
+  const reloadVocabularyList = async (params: VocabularyParamsType = {}) => {
+    const vocabularyList = await getVocabularies(params)
     setVocabularyList(vocabularyList)
   }
 

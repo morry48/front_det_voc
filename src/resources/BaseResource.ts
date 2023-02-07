@@ -1,6 +1,6 @@
 
 
-import axios from "axios";
+import axios, { type AxiosRequestConfig } from "axios";
 
 type ParamsType = {
   [key: string]: any
@@ -13,9 +13,9 @@ class BaseResource {
     this.baseUrl = import.meta.env.VITE_API_URL
   }
 
-  async get<T>(endPoint: string) {
+  async get<T>(endPoint: string, option?: AxiosRequestConfig) {
     const url = this.getUrl(endPoint)
-    const response = await axios.get<T>(url)
+    const response = await axios.get<T>(url, option)
 
     return response.data
   }
