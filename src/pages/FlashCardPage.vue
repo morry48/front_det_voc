@@ -39,7 +39,8 @@ initializeUnansweredList()
 <template>
   <DuMain class="overflow-auto">
     <div v-if="currentVocabulary" class="p-4 flex flex-col h-full">
-      <div class="text-right">
+      <div class="flex justify-between">
+        <DuTitle :text="`level: ${currentVocabulary.level}`" :size="'md'" />
         <DuTitle :text="countInfo" :size="'md'" />
       </div>
       <div class="text-lg text-center mt-auto h-18">
