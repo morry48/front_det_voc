@@ -32,14 +32,19 @@ const onClickUnAnswerButton = () => {
   addUnansweredVocabulary(vocabulary)
 }
 
-initializeUnansweredList()
+const onClickAgainButton = () => {
+  state.counter = 0
+  initializeUnansweredList()
+}
+
 
 </script>
 
 <template>
   <DuMain class="overflow-auto">
     <div v-if="currentVocabulary" class="p-4 flex flex-col h-full">
-      <div class="text-right">
+      <div class="flex justify-between">
+        <DuTitle :text="`level: ${currentVocabulary.level}`" :size="'md'" />
         <DuTitle :text="countInfo" :size="'md'" />
       </div>
       <div class="text-lg text-center mt-auto h-18">
@@ -68,6 +73,9 @@ initializeUnansweredList()
         <div class="text-lg">
           わからなかった単語: <span class="text-3xl">{{ vocabularyState.unansweredList.length }}</span> 個
         </div>
+
+        <DuButton class="mb-4 mt-10" :color="'primary'" size="lg" block>別の単語で続ける</DuButton>
+        <DuButton class="mb-4" :color="'primary'" size="lg" block @click="onClickAgainButton">同じ単語でもう一周する</DuButton>
       </div>
 
       <DuDivider />

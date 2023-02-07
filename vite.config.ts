@@ -12,6 +12,7 @@ export default defineConfig({
       "@mocks": fileURLToPath(new URL("./src/mocks", import.meta.url)),
       "@functions": fileURLToPath(new URL("./src/functions", import.meta.url)),
       "@stores": fileURLToPath(new URL("./src/stores", import.meta.url)),
+      "@storages": fileURLToPath(new URL("./src/storages", import.meta.url)),
       "@utils": fileURLToPath(new URL("./src/utils", import.meta.url)),
       "@components": fileURLToPath(new URL("./src/components", import.meta.url)),
       "@const": fileURLToPath(new URL("./src/const", import.meta.url)),
