@@ -30,6 +30,9 @@
       "@stores/*": [
         "./src/stores/*"
       ],
+      "@storages/*": [
+        "./src/storages/*"
+      ],
       "@utils/*": [
         "./src/utils/*"
       ],

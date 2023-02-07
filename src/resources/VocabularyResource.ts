@@ -1,8 +1,9 @@
+import type { Nullable } from "@@types/Nullable";
 import type Vocabulary from "src/models/vocabulary";
 import BaseResource from "./BaseResource";
 
 export type VocabularyParamsType = {
-  level?: string
+  level?: Nullable<string>
 }
 export class VocabularyResource extends BaseResource {
 

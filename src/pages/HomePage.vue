@@ -7,24 +7,27 @@ import { useVocabularyStore } from '@stores/vocabulary/index'
 import DuMain from '@components/DuMain/DuMain.vue';
 import { LEVELS } from '@const/level';
 import { reactive } from 'vue';
+import { useVocabularyLocalStorage } from '@storages/VocabularyStorage/index'
 
 const { reloadVocabularyList } = useVocabularyStore()
+const { getLevelFromLocalStorage, setLevelToLocalStorage } = useVocabularyLocalStorage()
 const levelItems = LEVELS.getList().map((level) => ({
   label: level.name,
   value: level.id
 }))
 
 const state = reactive({
-  level: ''
+  level: getLevelFromLocalStorage()
 })
 
 const onClickApplyButton = () => {
-  reloadVocabularyList({
-    level: state.level
-  })
+  setLevelToLocalStorage(state.level)
+  reload()
 }
 
-reloadVocabularyList()
+const reload = () => reloadVocabularyList({ level: state.level })
+
+reload()
 </script>
 
 <template>
