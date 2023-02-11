@@ -1,16 +1,18 @@
-import type { Nullable } from "@@types/Nullable";
+import type { VocabularySearchConditionType } from "@stores/SearchConditon";
 
 export type VocabularyStorageType = {
-  level: Nullable<string>;
+  params: VocabularySearchConditionType
 };
 
 const localStorageDefaultValue: VocabularyStorageType = {
-  level: null
+  params: {
+    level: null
+  }
 };
 
-export const keyBase = 'det/vocabulary';
+export const keyBase = 'det/search-condition';
 
-export function useVocabularyLocalStorage() {
+export function useSearchConditionLocalStorage() {
 
   const useStorage = () => {
     const nullableStr = window.localStorage.getItem(keyBase);
@@ -18,19 +20,19 @@ export function useVocabularyLocalStorage() {
     return storage
   }
 
-  const getLevelFromLocalStorage = () => {
+  const getParamsFromLocalStorage = () => {
     const storage = useStorage()
-    return storage.level
+    return storage.params
   }
 
-  const setLevelToLocalStorage = (level: Nullable<string>) => {
+  const setParamsToLocalStorage = (params: VocabularySearchConditionType) => {
     const storage = useStorage()
-    storage.level = level
+    storage.params = params
     window.localStorage.setItem(keyBase, JSON.stringify(storage));
   }
 
   return {
-    getLevelFromLocalStorage,
-    setLevelToLocalStorage
+    getParamsFromLocalStorage,
+    setParamsToLocalStorage
   }
 };
