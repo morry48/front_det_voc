@@ -14,5 +14,7 @@ export const useSearchConditionStore = defineStore('search-condition', () => {
     params: getParamsFromLocalStorage()
   })
 
-  return { searchConditionState: readonly(state) }
+  const setParams = (params: VocabularySearchConditionType) => state.params = params
+
+  return { searchConditionState: readonly(state), setParams }
 })
