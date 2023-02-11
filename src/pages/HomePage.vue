@@ -4,26 +4,29 @@ import DuSelect from '@components/DuSelect/DuSelect.vue'
 import DuDialog from '@components/DuDialog/DuDialog.vue';
 import DuTitle from '@components/DuTitle/DuTitle.vue';
 import { useVocabularyStore } from '@stores/vocabulary/index'
+import { useSearchConditionStore } from '@stores/SearchConditon/index'
 import DuMain from '@components/DuMain/DuMain.vue';
 import { LEVELS } from '@const/level';
 import { reactive } from 'vue';
-import { useVocabularyLocalStorage } from '@storages/VocabularyStorage/index'
+import { useSearchConditionLocalStorage } from '@storages/SearchConditionStorage/index'
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
 const { reloadVocabularyList, initializeUnansweredList } = useVocabularyStore()
-const { getLevelFromLocalStorage, setLevelToLocalStorage } = useVocabularyLocalStorage()
+const { setParamsToLocalStorage } = useSearchConditionLocalStorage()
+const { searchConditionState } = useSearchConditionStore()
 const levelItems = LEVELS.getList().map((level) => ({
   label: level.name,
   value: level.id
 }))
 
+// v-model用のローカルステート
 const state = reactive({
-  level: getLevelFromLocalStorage()
+  params: searchConditionState.params
 })
 
 const onClickApplyButton = () => {
-  setLevelToLocalStorage(state.level)
+  setParamsToLocalStorage({ level: state.params.level })
   reload()
 }
 
@@ -32,7 +35,7 @@ const onClickStartButton = () => {
   router.push('/flash-card')
 }
 
-const reload = () => reloadVocabularyList({ level: state.level })
+const reload = () => reloadVocabularyList(searchConditionState.params)
 
 reload()
 </script>
@@ -50,7 +53,7 @@ reload()
       <div class="mt-auto">
         <DuButton class="mb-4" :color="'primary'" size="lg" block @click="onClickStartButton">START</DuButton>
         <DuDialog title="単語の設定" @submit="onClickApplyButton">
-          <DuSelect label="レベル" v-model="state.level" :item-list="levelItems" />
+          <DuSelect label="レベル" v-model="state.params.level" :item-list="levelItems" />
         </DuDialog>
       </div>
     </div>
