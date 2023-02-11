@@ -13,8 +13,8 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter()
 const { reloadVocabularyList, initializeUnansweredList } = useVocabularyStore()
-const { setParamsToLocalStorage } = useSearchConditionLocalStorage()
-const { searchConditionState } = useSearchConditionStore()
+const { setParamsToLocalStorage, getParamsFromLocalStorage } = useSearchConditionLocalStorage()
+const { searchConditionState, setParams } = useSearchConditionStore()
 const levelItems = LEVELS.getList().map((level) => ({
   label: level.name,
   value: level.id
@@ -22,11 +22,12 @@ const levelItems = LEVELS.getList().map((level) => ({
 
 // v-model用のローカルステート
 const state = reactive({
-  params: searchConditionState.params
+  params: getParamsFromLocalStorage()
 })
 
 const onClickApplyButton = () => {
-  setParamsToLocalStorage({ level: state.params.level })
+  setParams(state.params)
+  setParamsToLocalStorage(state.params)
   reload()
 }
 
