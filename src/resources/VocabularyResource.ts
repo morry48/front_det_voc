@@ -5,6 +5,10 @@ import BaseResource from "./BaseResource";
 export type VocabularyParamsType = {
   level?: Nullable<string>
 }
+
+type GetVocabularyListResponseType = {
+  vocabularies: Vocabulary[]
+}
 export class VocabularyResource extends BaseResource {
 
   constructor() {
@@ -12,7 +16,7 @@ export class VocabularyResource extends BaseResource {
   }
 
   getVocabularyList(params?: VocabularyParamsType) {
-    return this.get<Vocabulary[]>('/vocabularies/', {
+    return this.get<GetVocabularyListResponseType>('/vocabularies/', {
       params
     })
   }
