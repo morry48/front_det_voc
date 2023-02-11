@@ -8,8 +8,10 @@ import DuMain from '@components/DuMain/DuMain.vue';
 import { LEVELS } from '@const/level';
 import { reactive } from 'vue';
 import { useVocabularyLocalStorage } from '@storages/VocabularyStorage/index'
+import { useRouter } from 'vue-router';
 
-const { reloadVocabularyList } = useVocabularyStore()
+const router = useRouter()
+const { reloadVocabularyList, initializeUnansweredList } = useVocabularyStore()
 const { getLevelFromLocalStorage, setLevelToLocalStorage } = useVocabularyLocalStorage()
 const levelItems = LEVELS.getList().map((level) => ({
   label: level.name,
@@ -23,6 +25,11 @@ const state = reactive({
 const onClickApplyButton = () => {
   setLevelToLocalStorage(state.level)
   reload()
+}
+
+const onClickStartButton = () => {
+  initializeUnansweredList()
+  router.push('/flash-card')
 }
 
 const reload = () => reloadVocabularyList({ level: state.level })
@@ -41,7 +48,7 @@ reload()
       </div>
 
       <div class="mt-auto">
-        <DuButton class="mb-4" :color="'primary'" size="lg" block @click="$router.push('/flash-card')">START</DuButton>
+        <DuButton class="mb-4" :color="'primary'" size="lg" block @click="onClickStartButton">START</DuButton>
         <DuDialog title="単語の設定" @submit="onClickApplyButton">
           <DuSelect label="レベル" v-model="state.level" :item-list="levelItems" />
         </DuDialog>

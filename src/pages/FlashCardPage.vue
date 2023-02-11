@@ -14,6 +14,7 @@ if (!vocabularyState.list.length) router.push('/')
 
 const state = reactive({
   isShowAnswer: false,
+  isShowAllVocabularyList: false,
   counter: 0,
 })
 
@@ -25,6 +26,13 @@ const currentLevel = computed(() => {
 })
 const countInfo = computed(() => {
   return `${state.counter + 1} / ${vocabularyState.count}`
+})
+
+const allVocabularyButtonText = computed(() => state.isShowAllVocabularyList ? 'わからなかった単語だけ表示する' : '単語をすべて表示する')
+
+const vocabularyListExceptionUnanswer = computed(() => {
+  const unAnswerIds = vocabularyState.unansweredList.map((vocabulary) => vocabulary.id)
+  return vocabularyState.list.filter((vocabulary) => !unAnswerIds.includes(vocabulary.id))
 })
 const onClickNextButton = () => {
   state.counter++
@@ -42,6 +50,8 @@ const onClickAgainButton = () => {
   state.counter = 0
   initializeUnansweredList()
 }
+
+const onClickShowAllButton = () => state.isShowAllVocabularyList = !state.isShowAllVocabularyList
 
 
 </script>
@@ -82,6 +92,9 @@ const onClickAgainButton = () => {
 
         <DuButton class="mb-4 mt-10" :color="'primary'" size="lg" block>別の単語で続ける</DuButton>
         <DuButton class="mb-4" :color="'primary'" size="lg" block @click="onClickAgainButton">同じ単語でもう一周する</DuButton>
+        <DuButton class="mb-4" :color="'primary'" outline size="lg" block @click="onClickShowAllButton">
+          {{ allVocabularyButtonText }}
+        </DuButton>
       </div>
 
       <DuDivider />
@@ -90,6 +103,10 @@ const onClickAgainButton = () => {
         <DuCollapse v-for="vocabulary, index in vocabularyState.unansweredList" class="mb-4"
           :show-text="vocabulary.en_word" :hide-text="vocabulary.jp_word" :key="index" />
 
+        <div v-show="state.isShowAllVocabularyList">
+          <DuCollapse v-for="vocabulary in vocabularyListExceptionUnanswer" class="mb-4" :show-text="vocabulary.en_word"
+            :hide-text="vocabulary.jp_word" :key="vocabulary.id" />
+        </div>
       </div>
     </div>
   </DuMain>
