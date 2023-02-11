@@ -7,6 +7,7 @@ import { useVocabularyStore } from '@stores/vocabulary/index'
 import { reactive, computed } from 'vue';
 import DuDivider from '@components/DuDivider/DuDivider.vue';
 import { useRouter } from 'vue-router';
+import { LEVELS } from '@const/level';
 const router = useRouter()
 const { vocabularyState, addUnansweredVocabulary, initializeUnansweredList } = useVocabularyStore()
 if (!vocabularyState.list.length) router.push('/')
@@ -17,6 +18,11 @@ const state = reactive({
 })
 
 const currentVocabulary = computed(() => vocabularyState.list[state.counter])
+const currentLevel = computed(() => {
+  const level = LEVELS.getList().find((level) => level.id === currentVocabulary.value.level)?.name || 'レベル未設定'
+
+  return level
+})
 const countInfo = computed(() => {
   return `${state.counter + 1} / ${vocabularyState.count}`
 })
@@ -44,7 +50,7 @@ const onClickAgainButton = () => {
   <DuMain class="overflow-auto">
     <div v-if="currentVocabulary" class="p-4 flex flex-col h-full">
       <div class="flex justify-between">
-        <DuTitle :text="`level: ${currentVocabulary.level}`" :size="'md'" />
+        <DuTitle :text="currentLevel" :size="'md'" />
         <DuTitle :text="countInfo" :size="'md'" />
       </div>
       <div class="text-lg text-center mt-auto h-18">
