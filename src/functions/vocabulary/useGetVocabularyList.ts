@@ -7,7 +7,7 @@ export function useGetVocabularyList() {
 
   return async (params: VocabularyParamsType = {}) => {
     const response = await resource.getVocabularyList(params)
-    return response.map(res => new Vocabulary(res))
+    return response.vocabularies.map(res => new Vocabulary(res))
   }
 
 }
