@@ -4,17 +4,21 @@ import DuMain from '@components/DuMain/DuMain.vue';
 import DuTitle from '@components/DuTitle/DuTitle.vue';
 import DuCollapse from '@components/DuCollapse/DuCollapse.vue';
 import { useVocabularyStore } from '@stores/vocabulary/index'
+import { useSearchConditionStore } from '@stores/SearchConditon/index'
 import { reactive, computed } from 'vue';
 import DuDivider from '@components/DuDivider/DuDivider.vue';
 import { useRouter } from 'vue-router';
 import { LEVELS } from '@const/level';
 const router = useRouter()
-const { vocabularyState, addUnansweredVocabulary, initializeUnansweredList } = useVocabularyStore()
+const { vocabularyState, addUnansweredVocabulary, initializeUnansweredList, reloadVocabularyList } = useVocabularyStore()
 if (!vocabularyState.list.length) router.push('/')
+
+const { searchConditionState } = useSearchConditionStore()
 
 const state = reactive({
   isShowAnswer: false,
   isShowAllVocabularyList: false,
+  isLoading: false,
   counter: 0,
 })
 
@@ -53,6 +57,15 @@ const onClickAgainButton = () => {
 
 const onClickShowAllButton = () => state.isShowAllVocabularyList = !state.isShowAllVocabularyList
 
+const onClickMoreRoundButton = async () => {
+  state.isLoading = true
+  await reloadVocabularyList(searchConditionState.params)
+  initializeUnansweredList()
+  state.counter = 0
+  state.isLoading = false
+  state.isShowAllVocabularyList = false
+}
+
 
 </script>
 
@@ -90,7 +103,8 @@ const onClickShowAllButton = () => state.isShowAllVocabularyList = !state.isShow
           わからなかった単語: <span class="text-3xl">{{ vocabularyState.unansweredList.length }}</span> 個
         </div>
 
-        <DuButton class="mb-4 mt-10" :color="'primary'" size="lg" block>別の単語で続ける</DuButton>
+        <DuButton class="mb-4 mt-10" :color="'primary'" size="lg" block :loading="state.isLoading" @click="onClickMoreRoundButton">別の単語で続ける
+        </DuButton>
         <DuButton class="mb-4" :color="'primary'" size="lg" block @click="onClickAgainButton">同じ単語でもう一周する</DuButton>
         <DuButton class="mb-4" :color="'primary'" outline size="lg" block @click="onClickShowAllButton">
           {{ allVocabularyButtonText }}
